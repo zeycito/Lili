@@ -28,7 +28,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Extraer la experiencia
-        run: unzip -q site.zip -d dist
+        run: unzip -q *.zip -d dist
 
       - name: Subir la experiencia estática
         uses: actions/upload-pages-artifact@v3
